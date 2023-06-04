@@ -67,7 +67,6 @@ function Navbar() {
                     to={`/Users/${user?.result?._id}`}
                     style={{ color: "white", textDecoration: "none " }}
                   >
-                    {user.result.name.charAt(0).toUpperCase()}
                   </Link>
                 </Avatar>
 
